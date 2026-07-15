@@ -5,8 +5,8 @@ const CONFIG = {
   // low-opacity background collage — add as many image paths as you like
   collagePhotos: [
     "./collage/1.jpg",
-    "./collage/2.jpg",
-    "./collage/3.jpg",
+    "./collage/2.JPG",
+    "./collage/3.JPG",
     "./collage/4 .jpg",
     "./collage/5.jpg",
     "./collage/6.jpg",
