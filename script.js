@@ -12,7 +12,7 @@ const CONFIG = {
     "./collage/6.jpg",
     "./collage/7.jpg",
     "./collage/8.jpg",
-const branchesLayer = document.getElementById("branchesLayer");
+const branchesLayer = document.getElementById("branchesLayer");}
 
 // builds a tapered, curved "ribbon" shape between two points (like a real branch silhouette)
 // shiftFrac / widthScale let us also draw a slimmer, offset highlight streak on the same curve
