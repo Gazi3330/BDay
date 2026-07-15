@@ -12,29 +12,6 @@ const CONFIG = {
     "./collage/6.jpg",
     "./collage/7.jpg",
     "./collage/8.jpg",
-  ],
-
-  // the 10 tree photos + wish text for each (order = bottom branches to top)
-  treePhotos: [
-    {
-      src: "./tree photos/2.jpg",
-      wish: "You said you were making an angry face but you were looking SUPERRRRR CUUUUTE",
-    },
-    { src: "images/tree2.jpg", wish: "One of my favorite memories with you." },
-    { src: "images/tree3.jpg", wish: "That laugh I never get tired of." },
-    { src: "images/tree4.jpg", wish: "Somewhere we'll never forget." },
-    { src: "images/tree5.jpg", wish: "You, being effortlessly you." },
-    { src: "images/tree6.jpg", wish: "A moment I wish I could relive." },
-    { src: "images/tree7.jpg", wish: "Golden hour, golden you." },
-    { src: "images/tree8.jpg", wish: "Still my favorite person." },
-    { src: "images/tree9.jpg", wish: "Here's to many more like this." },
-    { src: "images/tree10.jpg", wish: "Happy birthday, to the best of us." },
-  ],
-};
-
-/* ================= TREE GENERATION (matches reference: two-limb trunk, tapered glossy branches, 10 spiked tips) ================= */
-const svgNS = "http://www.w3.org/2000/svg";
-const treeSvg = document.querySelector("#treeWrap svg");
 const branchesLayer = document.getElementById("branchesLayer");
 
 // builds a tapered, curved "ribbon" shape between two points (like a real branch silhouette)
