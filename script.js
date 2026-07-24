@@ -1,12 +1,12 @@
 /* ================= CONFIG — edit paths & PIN here in VS Code ================= */
 const CONFIG = {
-  PIN: "2000", // <-- set to her birth year (4 digits)
+  PIN: "2003", // <-- set to her birth year (4 digits)
 
   // low-opacity background collage — add as many image paths as you like
   collagePhotos: [
     "./collage/1.jpg",
-    "./collage/2.jpg",
-    "./collage/3.jpg",
+    "./collage/2.JPG",
+    "./collage/3.JPG",
     "./collage/4 .jpg",
     "./collage/5.jpg",
     "./collage/6.jpg",
