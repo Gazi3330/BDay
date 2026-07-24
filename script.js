@@ -35,7 +35,7 @@ const CONFIG = {
     { src: "./tree photos/1.jpg", wish: "You, being effortlessly you." },
     { src: "./tree photos/6.jpg", wish: "Day I wish I could relive." },
     {
-      src: "./tree photos/IMG_7811.JPG",
+      src: "./IMG_7811.JPG",
       wish: "You know you could've been a great model.",
     },
     {
